@@ -1,0 +1,11 @@
+array method หรือวิธีการต่างๆในการจัดการกับ Array วิธีการเขียนมี 4 แบบ แบบที่1คือ 
+annonymous arrow function โดยพารามิเตอร์ที่อยู่ข้างในจะเป็น call back function ส่งค่ากลับมา
+แบบที่ 2 annonymous function declartion parameter ข้างในรับค่าเป็น function 
+แบบที่ 3 named arrow function รับค่า เป็น parameter และส่งต่อใน arrow function และสุดท้าย named function declaration
+รับค่าพารามิเตอร์เป็นfunction ที่ทำ function array method 
+บาง array มี array method ที่ส่งผลกับ array โดยตรง เช่น 
+push ทำการเพิ่ม parameter ลงไปท้ายสุด unshift ลงไปหน้าสุด pop ลบตัวท้ายสุด unshift ลบตัวแรกสุด
+มี splice ที่ทำหน้าที่เพิ่ม parameter ลงไปในตำแหน่งที่ต้องการ และเลือกที่จะลบตัวถัดๆไปได้ 
+slice  เป็นarray method ที่ไม่เก็บการเปลี่ยนแปลง ทำหน้าที่แบ่งออกมาเป็น array ตัวใหม่โดยเลือกสับออกมาตามตำแหน่ง index 
+และ จำนวนที่ต้องการ filter ทำหน้าที่เลือกarray ที่ตรงตามเงื่อนไข มี startwith ที่เลือก array ขึ้นต้นด้วยเงื่อนไขที่ต้องการ
+map ทำหน้าที่แปลง array ที่เลือกมาแปลงกลายเป็น array อันใหม่ และ reduce ที่ ทำหน้าที่คล้ายลูปรับค่าparameter สองตัว ตัวแรกทำหน้าที่เป็นตัว สะสมทั้งหมด ตัวที่สองเป็น function ที่ให้ทำหน้าที่รันจนครบarray ทุกตัวข้างใน
